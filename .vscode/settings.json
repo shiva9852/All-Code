@@ -1,0 +1,13 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "workbench.settings.editor": "ui",
+    "C_Cpp.default.enableConfigurationSquiggles": true,
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "files.associations": {
+        "REVERSE.C": "cpp"
+    }
+}

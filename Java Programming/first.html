@@ -1,0 +1,18 @@
+<html>
+    <script language="javascript">
+        function f1()
+        {
+            var a;
+            a=f1.t1.value;
+            f1.t2.value=a;
+            f1.t1.value="";
+        }
+    </script>
+    <body>
+        <form name="f1">
+            number1:<input type="text" name="t1" ><br>
+            <input type="button" value="shift" onclick="f1()">
+            number2:<input type="text" name="t2">
+        </form>
+    </body>
+</html>
